@@ -1,0 +1,454 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+#top-nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#top-nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 25px;
+    display: block;
+    padding: 15px 20px;
+    font-weight: 600;
+}
+
+#top-nav li a:hover {
+    background-color: white;
+    color: black;
+}
+
+#active-tab {
+    background-color: rgba(54, 54, 54, 0.5)
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+ 
+#bottom-bar, footer div {
+    text-align: center;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer div {
+    padding: 5px 0;
+}
+
+#bottom-bar li {
+    color: white;
+    font-size: 50px;
+    margin: 5px 5px;
+}
+
+#bottom-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+#bottom-bar a:hover {
+    color: gainsboro;
+}
+
+#blurbs {
+    text-align: center;
+    font-size: 25px;
+}
+
+.name-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+#first {
+    margin-top: 6%;
+}
+
+#name {
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+}
+
+body {
+    background-image: url("../images/code-background.jpg");
+}
+
+#page-title {
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+
+section {
+    font-family: 'Share Tech Mono', monospace;
+    text-transform: uppercase;
+    color: white;
+}
+
+#picture {
+    float: left;
+    width: 30%;
+    height: 100%;
+    padding-left: 70px; 
+}
+
+#picture img {
+    border: 15px solid rgba(125, 125, 125, 0.5);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+#bio {
+    display: inline-block;
+    border: 4px solid rgba(125, 125, 125, 0.5);
+    padding: 15px;
+    font-size: 25px;
+    width: 55%;
+    border-radius: 15px;
+}
+
+table {
+    width: 70%;
+    font-size: 30px;
+    font-weight: 600;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    margin-bottom: 100px;
+}
+
+select {
+    width: 25%;
+    height: 55px;
+    border: 3px solid white;
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 6px;
+}
+
+input, textarea {
+    width: 60%;
+    border-radius: 14px;
+    padding: 10px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+}
+
+input {
+    height: 25px;
+}
+
+.label {
+    text-align: right;
+    padding-right: 15px;
+}
+
+#submit, button {
+    width: 25%;
+    height: 55px;
+    border: 3px solid white;
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 6px;
+}
+
+button:hover, #submit:hover {
+    background-color: white;
+    color: black;
+    border-color: gray;
+}
+
+#button {
+    text-align: center;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+#frontground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    overflow-y: scroll;
+}
+
+.slide {
+    width: 65%;
+    margin: auto;
+    border: 7px solid grey;
+    border-radius: 15px;
+}
+
+#slideshow {
+    margin: auto;
+    width: 80%;
+}
+
+.slick-arrow {
+    position: fixed;
+    width: 12%;
+    top: 50%;
+}
+
+.slick-prev {
+    left: 15px;
+}
+
+.slick-next {
+    right: 15px;
+    
+}
+
+#response {
+    border: 4px solid rgba(125, 125, 125, 0.5);
+    padding: 15px;
+    font-size: 25px;
+    width: 45%;
+    border-radius: 15px;
+    margin: auto;
+    background-color: rgba(27, 27, 27, 0.7);
+}
+
+#form-list>li {
+    display: block;
+}
+
+#response>div>header>h2, #response>p {
+    text-align: center;
+}
+
+#go-home {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 25%; 
+    border: 3px solid white;
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#hidden-blurbs, #burger, #nav-list {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    #first {
+        margin-top: 25%;
+    }
+
+    #page-title {
+        font-size: 60px;
+    }
+
+    #blurbs, #top-nav {
+        display: none;
+    }
+
+    #hidden-blurbs {
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #nav-list {
+        width: 100%;
+        position: fixed;
+        top: 80px;
+        z-index: 10;
+        margin-left: 5px;
+    }
+
+    #nav-list li {
+        display: block;
+        width: 35%;
+        background-color: white;
+        border: 3px grey solid;
+        margin-bottom: 2px;
+        border-radius: 12px;
+        text-align: center;
+        padding: 10px 2px;
+    }
+
+    #nav-list a {
+        color: black;
+        font-weight: 600;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        
+    }
+
+    #burger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 8px;
+        left: 5px;
+        border: 2px rgba(255, 255, 255, 0.3) solid;
+        border-radius: 12px;
+        color: white;
+        background-color: black;
+        font-size: 30px;
+        width: 55px;
+        height: 55px;
+        cursor: pointer;
+        outline: 0;
+    }
+
+    #bottom-bar li {
+        font-size: 50px;
+        margin: 5px 7px;
+    }
+    /*About Page*/ 
+    #picture {
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #picture img {
+        width: 250px;
+        height: 250px;
+    }
+
+    #bio {
+        display: block;
+        padding: 5px;
+        width: 90%;
+        margin: auto;
+        overflow: scroll;
+    }
+
+    #content {
+        margin-bottom: 100px;
+    }
+
+    /*Contact Page*/
+    table {
+        width: 85%;
+        font-size: 20px;
+    }
+
+    .label {
+        padding: 0;
+        width: 10%;
+    }
+
+    #submit, button {
+        width: 50%;
+    }
+
+    input, textarea {
+        width: 100%;
+    }
+
+    select {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    /*Projects Page*/
+    #slideshow {
+        width: 96%;
+    }
+
+    .slide {
+        width: 100%;
+    }
+
+    .slick-arrow {
+        font-size: 20px;
+        width: 35%;
+        top: 75%;
+    }
+
+    /*PHP Page*/
+    #response {
+        width: 90%;
+        margin: 5%;
+    }
+
+    #response div {
+        margin: auto;
+    }
+
+    #response h2 {
+        font-size: 25px;
+    }
+
+    #go-home {
+        width: 50%;
+        margin-bottom: 25%;
+    }
+
+    #form-list {
+        font-size: 20px;
+    }
+
+
+
+}

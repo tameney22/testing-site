@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Yoseph Tamene</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video autoplay muted id="myVideo">
+        <source src="../images/Final.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div id="frontground">
+        <header>
+            <button  onclick="displayMenu()" id="burger">
+                <i class="fas fa-bars icon"></i>
+            </button>
+            <nav id="top-nav">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li id="active-tab"><a href="/about/index.html">About</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+            <nav id="nav-list">
+                <ul>
+                    <!--The id here is to highlight the current tab for an easier navigation experience.-->
+                    <li id="active-tab"><a href="/index.html">Home</a></li>
+                    <li><a href="/about/index.html">About</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="first">
+                <h2 id="page-title">About Me</h2>
+            </section>
+            <section id="content">
+                <figure id="picture">
+                    <img src="../images/Yoseph Tamene.jpg" alt="A Picture of Myself">
+                    
+                </figure>
+                <div id="bio">
+                    <p>
+                        Hi there! My name is Yoseph. I'm 20 years old from Addis Ababa, Ethiopia. I am currently a sophomore at Washington and Lee University, in the class of 2022, majoring in Computer Science. Outside of the classroom, I spend most of my time working on various personal projects as well as playing a management role in the school's African Society;
+                        my favorite hobbies include basketball, listening to music, and spending time with friends and family. I am constantly looking for opportunities to develop my skills as a future software engineer and apply the knowledge I have gained. I am excited to meet new people, embark on new adventures and develop my skills as a software engineer.
+                    </p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <ul id="bottom-bar">
+                <li><a href="https://www.linkedin.com/in/yosephtamene/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/tameney22" target="_blank"><i class="fab fa-github-square"></i></a></li>
+            <li><a href="https://twitter.com/yoseman247" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="mailto:tameney22@mail.wlu.edu" target="_blank"><i class="fas fa-envelope-square"></i></a></li>
+            </ul>
+            <div>&copy; 2020 Yoseph Tamene</div>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/ecd1bb03ff.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/home.js"></script>
+</body>
+</html>
